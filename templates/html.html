@@ -1,0 +1,18 @@
+<html>
+    <head>
+              
+    </head>
+    <body>
+        {{list|safe}}
+        
+        <form action="/search" method = "GET">
+            <select name="regione">
+                {% for regione in list %}
+                    <option value="{{regione}}">{{regione}}</option> 
+                {% endfor %}
+                </select>
+            <p>Inserisci il nome della regione <input type = "text" name = "regione" /></p>
+            <p><input type = "submit" value = "Clicca per conoscere i dati" /></p>
+        </form>
+    </body>
+</html>
