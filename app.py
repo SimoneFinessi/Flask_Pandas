@@ -1,12 +1,6 @@
 from flask import Flask, render_template, request
 import pandas as pd
-import io
-import contextily
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from matplotlib.figure import Figure
-import matplotlib
-import matplotlib.pyplot as plt
-import folium
+
 app = Flask(__name__)
 
 @app.route('/')
