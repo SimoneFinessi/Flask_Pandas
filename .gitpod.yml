@@ -5,4 +5,4 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: pip install flask geopandas pandas io contextily matplotlib folium
+  - init: pip install flask geopandas pandas contextily matplotlib folium
